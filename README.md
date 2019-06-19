@@ -1,3 +1,11 @@
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js" ></script>
+
+<script type="text/javascript">
+  import * as tf from '@tensorflow/tfjs';
+  const model = await tf.loadLayersModel('https://drive.google.com/file/d/1G2Q-4UNIB7nj7tjsT6-1NMvu8ClBO0J5/view?usp=sharing');
+</script>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/CHHsu/EX_MNIST/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
